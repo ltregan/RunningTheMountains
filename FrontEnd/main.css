@@ -1,35 +1,105 @@
-/* body {
-     background-color: #C9F5DB;
- }*/
+
 
 body {
     background-color: #C9F5DB;
-    color: #2C2C2C;
-    font: normal 100% Cambria, Georgia, serif;
+    font: normal 100%/1.5 Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+    font-family: Calibri, Candara, 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 150%;
+    line-height: 1.5;
+    color: #0 ; /*#373737;*/
 }
+
 
 h1 {
     font-size: 3.5em;
-    font-style: italic;
-    font-weight: normal;
+    margin: auto;
 }
 
-h1 a {
-    color: #747474;
-    font: bold 0.45833333333333em Calibri, Optima, Arial, sans-serif; letter-spacing: 0.15em;
-    text-transform: uppercase;
-    text-decoration: none;
+b{
+    font-weight: bold;
 }
 
 
-.page {
+.main {
     background-color: #FFFFFF;
-    width: 90%;
-    height: 90%;
-    margin: 1px auto;
+    foreground-color: #FFFFFF;
+    margin: 0.5em 0.5em 0.5em 0.5em ;
+    overflow: auto;
+    border-color: black;
+    border-style: solid;
+    padding: 3em;
 }
+
 
 .history {
     float: right;
-    text-transform: uppercase;
+}
+
+header{
+    background-image: url("banner.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 2.5vw;
+    height: 20%;
+}
+
+
+
+article{
+    width: 70%;
+    /*float: left;*/
+    border-color: black;
+
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    border-bottom: line;
+
+}
+
+article:after{
+    content:"AAAA";
+    white-space: pre;
+
+}
+
+article h2 {
+    margin-bottom: -0.1em;
+    margin-left: -1em;
+    font-size: 2em;
+    /*display: inline;*/
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+li {
+    list-style: square outside none;
+    text-ident: 4em;
+    margin-left: 4em;
+}
+
+article time {
+    margin-bottom: 1em;
+    font-size: 0.75em;
+    white-space: nowrap;
+}
+
+article time:before{
+    content:"Posted on ";
+}
+
+article time:after{
+    content:"\000A";
+    white-space: pre;
+}
+
+p {
+    padding: 1em;
 }
