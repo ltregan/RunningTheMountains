@@ -15,7 +15,7 @@
             font-family: Calibri, Candara, 'Gill Sans', 'Gill Sans MT', sans-serif;
             font-size: 150%;
             line-height: 1.5;
-            color: #480000;
+            color: #0 ; /*#373737;*/
         }
 
 
@@ -32,6 +32,7 @@
             overflow: auto;
             border-color: black;
             border-style: solid;
+            padding: 3em;
         }
 
 
@@ -51,27 +52,36 @@
 
         article{
             width: 50%;
-            float: left;
+            /*float: left;*/
             border-color: black;
 
+            font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 300;
+            margin-bottom: 2em;
+            margin-left: 2em;
+            border-bottom: line;
+
         }
 
+        article:after{
+            content:"AAAA";
+            white-space: pre;
+
+        }
 
         article h2 {
-            margin-bottom: -0.5em;
+            margin-bottom: 1em;
+            margin-left: -1em;
             font-size: 2em;
+            display: inline;
+            font-weight: bold;
         }
-
-        time {
-            font-size: 0.5em;
-        }
-
 
         article time {
-            font-size: 50%;
+            font-size: 0.75em;
+
 
         }
-
 
         article time:before{
             content:"Posted on ";
@@ -92,11 +102,21 @@
 <body>
 
 <header>
-    <h1> Running the Mountains </h1>
+    <h1>Running the Mountains </h1>
 </header>
 
 
     <div class="main">
+
+        <nav class="history">
+            <ol>
+                <li>Crossing Corsica</li>
+                <li>Gear Review</li>
+                <li>Gear Review</li>
+            </ol>
+        </nav>
+
+
         <article>
             <h2>Crossing Corsica</h2>
             <time>April 10th 2015</time>
@@ -127,10 +147,9 @@
                 sfsdfsd;
             </content>
         </article>
-
-
-
     </div>
+
+
 
 </body>
 
