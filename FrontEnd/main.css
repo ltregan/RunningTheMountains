@@ -6,7 +6,7 @@ body {
     font-family: Calibri, Candara, 'Gill Sans', 'Gill Sans MT', sans-serif;
     font-size: 150%;
     line-height: 1.5;
-    color: #0 ; /*#373737;*/
+    color: #394017;
 }
 
 
@@ -59,7 +59,7 @@ article{
 }
 
 article:after{
-    content:"AAAA";
+    content:"";
     white-space: pre;
 
 }
@@ -102,4 +102,16 @@ article time:after{
 
 p {
     padding: 1em;
+}
+
+article img {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ext {
+     text-decoration: none;
+    border-bottom: 1px dashed #999;
+
 }
