@@ -7,25 +7,21 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="main.js"></script>
+
     <script>
-        function toggleImageZoom( ){
-            alert("1");
-            var div = document.createElement('div');
-            div.style.width = "50%";
-            div.style.height = "50%";
-            div.innerHTML = "LOIC";
-            div.style.marginLeft = "auto";
-            div.style.marginRight ="auto";
-            div.style.background ="#F0F";
-            div.style.left = '32px';
-            div.style.top = '16px';
-            document.body.appendChild(div);
-            alert("one");
-        }
+        $(function(){
+            $("article img").on("click", "", function(event) {
+                openLightBox( this );
+            });
 
-
+        });
     </script>
+
 </head>
+
+
 
 
 
@@ -50,6 +46,8 @@
 
     <div class="main">
 
+        <div class="lightbox"><img src="flasks.jpg"></div>
+
         <nav class="history">
             <ol>
                 <li>Crossing Corsica</li>
@@ -60,9 +58,8 @@
 
 
         <article>
-            <p><figure tabindex="1"><img src="flasks.jpg" onclick="toggleImageZoom(this)"><figcaption contenteditable="true">CAPTION</figcaption></figure>
 
-            <h2>Review: Inov-8 Race Elite 24 SS15</h2>
+           <h2>Review: Inov-8 Race Elite 24 SS15</h2>
             <time>April 10th 2015</time>
             <content>
                 <p>In a couple of weeks, I prepare myself to run the GR20 - the mythical crossing of Corsica along the water separation line. It runs for
@@ -123,6 +120,7 @@
             </ul>
 
 
+                <p><figure tabindex="1"><img src="flasks.jpg" onclick="openLightBox(this)"><figcaption contenteditable="true">CAPTION</figcaption></figure>
 
             <h3>On the run</h3>
 
