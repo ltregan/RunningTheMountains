@@ -108,10 +108,23 @@ article img {
     width: 66%;
     margin-left: auto;
     margin-right: auto;
+    -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+    tab-index: 1;
+    -moz-user-focus: enabled;
+    -webkit-user-select: enabled;
 }
 
+article img:hover {
+    -webkit-box-shadow: 0 6px 20px #F66; -moz-box-shadow: 0 6px 20px #F66;
+}
+
+/* external links */
 .ext {
      text-decoration: none;
     border-bottom: 1px dashed #999;
 
+}
+
+.expanded{
+    width: 100%;
 }

@@ -7,6 +7,24 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 
+    <script>
+        function toggleImageZoom( ){
+            alert("1");
+            var div = document.createElement('div');
+            div.style.width = "50%";
+            div.style.height = "50%";
+            div.innerHTML = "LOIC";
+            div.style.marginLeft = "auto";
+            div.style.marginRight ="auto";
+            div.style.background ="#F0F";
+            div.style.left = '32px';
+            div.style.top = '16px';
+            document.body.appendChild(div);
+            alert("one");
+        }
+
+
+    </script>
 </head>
 
 
@@ -42,6 +60,8 @@
 
 
         <article>
+            <p><figure tabindex="1"><img src="flasks.jpg" onclick="toggleImageZoom(this)"><figcaption contenteditable="true">CAPTION</figcaption></figure>
+
             <h2>Review: Inov-8 Race Elite 24 SS15</h2>
             <time>April 10th 2015</time>
             <content>
@@ -105,6 +125,7 @@
 
 
             <h3>On the run</h3>
+
 
                 <p>For the test run, I picked a 45k / +1700m route in a hilly landscape - hovering around 1000m.
                 <p><img text-align="enter" align="center" src="route.png">
