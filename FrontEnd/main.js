@@ -8,17 +8,21 @@ function openLightBox( obj ){
 
 
     var div = document.createElement('div');
-
-    div.style.position = "fixed";
-    div.style.left = '0px';
-    div.style.top = '0px';
-    div.style.width = window.innerWidth;
-    div.style.height = window.innerHeight;
     div.classList.add("lightbox");
-//    div.innerHTML = "<img src=\""+obj.src+"\" style=\"max-width:10%;max-height:10%;transform:scale(10%);\" >";
+  //  div.innerHTML = "<div><p><img src=\""+obj.src+"\" ></div></p>";
     div.innerHTML = "<img src=\""+obj.src+"\" >";
     div.onclick = closeLightBox;
+    var img = div.firstChild;
+    if( img.width > img.height )
+        img.width = "100%";
+    else
+        img.height = "100%";
+
+
     document.body.appendChild(div);
+
+
+
     div.focus();
 }
 
