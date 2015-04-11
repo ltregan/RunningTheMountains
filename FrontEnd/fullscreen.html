@@ -3,15 +3,43 @@
 <head profile="http://www.w3.org/2006/03/hcard">
     <style type="text/css">
 
-        div{
-            max-height: 50px;
-            background: red;
+       div.horizontal {
+            display: flex;
+            justify-content: center;
+           flex-direction: row;
+           top: 0;
+           bottom: 0;
+           right: 0;
+           left: 0;
+           background: green;
+           position: absolute;
+           padding: 50;
         }
+
+        div.vertical {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            position: fixed;
+            background: red;
+            padding: 50;
+        }
+
+        img{
+            max-height: 100%;
+        }
+
     </style>
 <body>
-<div>X
-    <img src="http://i.ebayimg.com/00/s/NDAwWDEyMDA=/z/wfkAAOSwPhdVHq-L/$_57.JPG" width="100%">
-    Y
+
+<div class="horizontal">
+    <div class="vertical" width="100%">
+        <img  width="400px" src="flasks.jpg"/>
+    </div>
 </div>
 
 </body>
