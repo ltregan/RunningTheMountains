@@ -12,11 +12,11 @@
 
     <script>
 
-        function loadImages(base){
+        function loadImages(baseId){
             return function(e) {
                 $(e).find('img').each(function (x) {
                     var oldSrc = $(this).attr('src');
-                    var newSrc = base + "/" + oldSrc;
+                    var newSrc = baseId + "/" + oldSrc;
                    // newSrc = 'gear-review-inov-8-race-elite-24/axe-down.jpg';
                     $(this).attr('src', newSrc);
                     alert($(this).attr('src'));
@@ -25,11 +25,14 @@
         }
 
         $(function(){
-            var base = 'gear-review-inov-8-race-elite-24';
-            $( "#"+base).load( base+"/article.html", loadImages(base) );
+            var baseId = 'gear-review-inov-8-race-elite-24';
+            var base = $( "#"+baseId);
+            base.load( baseId+"/article.html", loadImages(baseId) );
+
+            /*
             $("article img").on("click", "", function(event) {
                 loadImages( document );
-            });
+            }); */
         });
     </script>
 
