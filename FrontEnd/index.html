@@ -11,25 +11,25 @@
     <script src="main.js"></script>
 
     <script>
-        $(function(){
 
-            var base = 'gear-review-inov-8-race-elite-24';
-            $( "#"+base).load( base+"/article.html", function(e) {
-                $(e).find('img').each( function(x) {
+        function loadImages(base){
+            return function(e) {
+                $(e).find('img').each(function (x) {
                     var oldSrc = $(this).attr('src');
-                    var newSrc = base+"/"+oldSrc;
-                    $(this).attr('src', newSrc );
-                    alert( $(this).constructor.name );
-                } );
+                    var newSrc = base + "/" + oldSrc;
+                   // newSrc = 'gear-review-inov-8-race-elite-24/axe-down.jpg';
+                    $(this).attr('src', newSrc);
+                    alert($(this).attr('src'));
+                })
+            };
+        }
 
-                $("article img").on("click", "", function(event) {
-                    alert( $(this).constructor.name );
-                });
-
+        $(function(){
+            var base = 'gear-review-inov-8-race-elite-24';
+            $( "#"+base).load( base+"/article.html", loadImages(base) );
+            $("article img").on("click", "", function(event) {
+                loadImages( document );
             });
-
-
-
         });
     </script>
 
@@ -87,7 +87,7 @@
     </div>
 
 
-<div class="fb-comments" data-href="http://www.facebook.com/docs/plugins/comments/" data-numposts="5" data-colorscheme="light"></div>
+<!-- div class="fb-comments" data-href="http://www.facebook.com/docs/plugins/comments/" data-numposts="5" data-colorscheme="light"></div -->
 
 
 </body>
