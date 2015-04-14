@@ -105,7 +105,8 @@ p {
 }
 
 article img {
-    width: 66%;
+    min-width: 66%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
