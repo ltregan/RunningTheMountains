@@ -1,0 +1,13 @@
+SEO
+  ----------
+  photo at the start; consistency (light tent)
+    page title: <product name> | <site name></product>
+    h1: close to page title;
+    main page indexed for hte site, separate for the articles
+    alt text on images;
+    google suggestions; subquestions
+    description tag: snipet;
+    internal link vs. external link
+    google webmaster central
+    google webmaster tool / google analytics
+

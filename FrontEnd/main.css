@@ -109,9 +109,7 @@ article img {
     margin-left: auto;
     margin-right: auto;
     -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
-    tab-index: 1;
-    -moz-user-focus: enabled;
-    -webkit-user-select: enabled;
+    cursor: pointer;
 }
 
 article img:hover {

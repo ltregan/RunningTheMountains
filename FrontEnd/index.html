@@ -2,7 +2,9 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <meta name="description" content="Trail and mountains running website centered around the Swiss Alps, with GPS routes and gear reviews.">
+
+    <title>Running the Alps</title>
 
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -12,47 +14,15 @@
 
     <script>
 
-        function loadImages(baseId){
-            return function(e) {
-                $(e).find('img').each(function (x) {
-                    var oldSrc = $(this).attr('src');
-                    var newSrc = baseId + "/" + oldSrc;
-                   // newSrc = 'gear-review-inov-8-race-elite-24/axe-down.jpg';
-                    $(this).attr('src', newSrc);
-                    alert($(this).attr('src'));
-                })
-            };
-        }
-
         $(function(){
-            var baseId = 'gear-review-inov-8-race-elite-24';
-            var base = $( "#"+baseId);
-            base.load( baseId+"/article.html", loadImages(baseId) );
-
-            /*
-            $("article img").on("click", "", function(event) {
-                loadImages( document );
-            }); */
+            loadArticle('gear-review-inov-8-race-elite-24', 'Review: Inov-8 Race Elite 24');
         });
+
     </script>
 
 </head>
 
 
-
-/*  photo at the start; consistency (light tent)
-    page title: <product name> | <site name></product>
-    h1: close to page title;
-    main page indexed for hte site, separate for the articles
-    alt text on images;
-    google suggestions; subquestions
-    description tag: snipet;
-    internal link vs. external link
-    google webmaster central
-    google webmaster tool / google analytics
-
-
-*/
 
 <body>
 
@@ -79,9 +49,7 @@
 
         <nav class="history">
             <ol>
-                <li>Crossing Corsica</li>
-                <li>Gear Review</li>
-                <li>Gear Review</li>
+                <!-- will be populated by loadArticle -->
             </ol>
         </nav>
 
