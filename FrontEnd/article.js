@@ -6,6 +6,7 @@ $.getScript("../core.js", function() {
 
     core.loadImages();
 
+
 });
 
 
