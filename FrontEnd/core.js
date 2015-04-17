@@ -7,9 +7,13 @@ core  ={};
 
 $( function() {
 
-    core.loadImages = function () {
+    core.loadImages = function ( root ) {
 
-        $(document).find('article img').each(function () {
+      //  alert($.getJSON("http://ipinfo.io/")["country"] );
+
+        if( ! root )
+            root = document;
+        $(root).find('article img').each(function () {
             $(this).click(function () {
                 window.location = document.baseURI + "/" + $(this).attr('src');
              });
