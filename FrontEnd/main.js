@@ -4,12 +4,6 @@
 
 function applyStyles(baseId){
 
-    /*
-    $("img").on("click", function(){
-        alert("CC");
-        window.location = $(this).attr('src');
-    });*/
-
 
     var base = $( "#"+baseId);
     return function(e) {
@@ -20,7 +14,7 @@ function applyStyles(baseId){
         })
 
         $.getScript("core.js", function() {
-            core.loadImages( base );
+            core.addJSStyle( base );
         });
 
     };
@@ -38,3 +32,4 @@ $(function(){
     loadArticle('gear-review-inov-8-race-elite-24', 'Review: Inov-8 Race Elite 24');
     // ... more articles to come here ...
 });
+

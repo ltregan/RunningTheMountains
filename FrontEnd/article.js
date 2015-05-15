@@ -4,7 +4,7 @@
 
 $.getScript("../core.js", function() {
 
-    core.loadImages();
+    core.addJSStyle();
 
 
 });
