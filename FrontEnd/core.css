@@ -26,22 +26,16 @@ b{
 }
 
 
-.main {
-    background-color: #FFFFFF;
-    foreground-color: #FFFFFF;
-    margin: 0.5em 0.5em 0.5em 0.5em ;
-    border-color: black;
-    border-style: solid;
-    padding: 3em;
-    max-width: 40em;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
 .history {
     float: top;
 }
+
+/**
+   Header stays neutral
+*/
 
 header{
     background-image: url("banner.png");
@@ -51,9 +45,6 @@ header{
     height: 20%;
 }
 
-/**
-   Header stays neutral
-*/
 
 header a:link {
     text-decoration: none;
@@ -63,6 +54,34 @@ header a:link {
 header a:visited {
     text-decoration: none;
     color: inherit;
+}
+
+
+/**
+    Main text appears in a white box.
+ */
+
+.main {
+    background-color: #FFFFFF;
+    foreground-color: #FFFFFF;
+    border-color: black;
+    border-style: solid;
+
+    /* leave with some space with the top header banner */
+    margin: 0.5em 0 0 0 ;
+
+
+    /* put some white space around the inner font */
+
+    padding-top: 3em;
+    padding-left: 3em;
+
+    /* not too wide on desktop */
+    max-width: 40em;
+
+    /* center it */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
