@@ -23,20 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FrontEnd/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.928572">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.6653226">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEnd/core.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7627451">
+            <state vertical-scroll-proportion="0.0">
               <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
               <folding />
             </state>
@@ -122,8 +122,8 @@
         <option value="$PROJECT_DIR$/FrontEnd/gear-review-inov-8-race-elite-24/article.html" />
         <option value="$PROJECT_DIR$/FrontEnd/main.js" />
         <option value="$PROJECT_DIR$/FrontEnd/gear-review-inov-8-race-elite-24/index.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/index.html" />
         <option value="$PROJECT_DIR$/FrontEnd/core.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/index.html" />
       </list>
     </option>
   </component>
@@ -517,12 +517,12 @@
       <workItem from="1431429728635" duration="1077000" />
       <workItem from="1431506308005" duration="8754000" />
       <workItem from="1431850273683" duration="5271000" />
-      <workItem from="1431856304161" duration="6260000" />
+      <workItem from="1431856304161" duration="6639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54743000" />
+    <option name="totallyTimeSpent" value="55122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3216" height="1816" extended-state="0" />
@@ -879,18 +879,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/index.html">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/core.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.928572">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/core.css">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7627451">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.6653226">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding />
         </state>
       </provider>
