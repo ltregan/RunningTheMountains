@@ -23,7 +23,6 @@ function applyStyles(baseId){
 function loadArticle(baseId, title){
     var base = $("#" + baseId);
     base.load(baseId +" article", applyStyles( baseId ));
-    $(".history ol ").append("<li><a href=\""+baseId+"\">"+title+"</a></li>");
 }
 
 
