@@ -5,6 +5,23 @@
 core  ={};
 
 
+function updateAffiliateLinks(ipLocation, products){
+
+    $("a").each(function () {
+        if (!$(this).attr("href")) {
+            var productName = $(this).html();
+            var link = products[productName][ipLocation.country_code];
+            if (!link)
+                link = products[innerText]["default"];
+            if (!link)
+                $(this).html("XXXXX");
+            else
+                $(this).attr("href", link);
+        }
+    });
+}
+
+
  $( function() {
 
      core.addJSStyle = function (root) {
@@ -33,18 +50,10 @@ core  ={};
          /* assume null href are affiliate links */
          $.getJSON("http://api.hostip.info/get_json.php", function (ipLocation) {
              $.getJSON("/products.json", function (products) {
-                 $("a").each(function () {
-                     if (!$(this).attr("href")) {
-                         var productName = $(this).html();
-                         var link = products[productName][ipLocation.country_code];
-                         if (!link)
-                             link = products[innerText]["default"];
-                         if (!link)
-                             $(this).html("XXXXX");
-                         else
-                             $(this).attr("href", link);
-                     }
-                 });
+                 updateAffiliateLinks( ipLocation, products )
+             });
+             $.getJSON("http://localhost:63342/RunningTheAlps/FrontEnd/products.json", function (products) {
+                 updateAffiliateLinks( ipLocation, products )
              });
          });
      };
