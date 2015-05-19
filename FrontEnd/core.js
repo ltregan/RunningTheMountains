@@ -32,7 +32,7 @@ core  ={};
 
          /* assume null href are affiliate links */
          $.getJSON("http://api.hostip.info/get_json.php", function (ipLocation) {
-             $.getJSON("http://localhost:63342/RunningTheAlps/FrontEnd/products.json", function (products) {
+             $.getJSON("/products.json", function (products) {
                  $("a").each(function () {
                      if (!$(this).attr("href")) {
                          var productName = $(this).html();
