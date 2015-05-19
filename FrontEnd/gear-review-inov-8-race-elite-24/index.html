@@ -14,14 +14,14 @@
 
         <script>
 
-
-
             $(function(){
                 var base = $("#XXX");
                 $.getJSON( "http://api.hostip.info/get_json.php", function(data) {
-                    alert( data.country_name );
+                    $.getJSON("/products", function( products ) {
+                        alert(products[data.country_code]);
                     });
-                alert("json");
+                });
+
             });
 
 
