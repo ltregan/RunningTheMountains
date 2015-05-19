@@ -12,6 +12,21 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="../article.js"></script>
 
+        <script>
+
+
+
+            $(function(){
+                var base = $("#XXX");
+                $.getJSON( "http://api.hostip.info/get_json.php", function(data) {
+                    alert( data.country_name );
+                    });
+                alert("json");
+            });
+
+
+        </script>
+
 
     </head>
 
@@ -20,6 +35,8 @@
         <header><a href="/">
             <div>Running the Alps</div></a>
         </header>
+
+        <div id="XXX"></div>
 
         <div class="main">
             <article>
