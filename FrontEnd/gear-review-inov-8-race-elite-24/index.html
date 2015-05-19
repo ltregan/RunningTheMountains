@@ -17,7 +17,7 @@
             $(function(){
                 var base = $("#XXX");
                 $.getJSON( "http://api.hostip.info/get_json.php", function(data) {
-                    $.getJSON("/products", function( products ) {
+                    $.getJSON("/products,json", function( products ) {
                         alert(products[data.country_code]);
                     });
                 });
