@@ -5,37 +5,50 @@
 core  ={};
 
 
-// $( function() {
+ $( function() {
 
-    core.addJSStyle = function ( root ) {
+     core.addJSStyle = function (root) {
 
-   /* Article images must link to themselves in fullscreen */
+         /* Article images must link to themselves in fullscreen */
 
-        if( ! root )
-            root = document;
-        $(root).find('article img').each(function () {
-            $(this).click(function () {
-                window.location = document.baseURI  + $(this).attr('src');
+         if (!root)
+             root = document;
+         $(root).find('article img').each(function () {
+             $(this).click(function () {
+                 window.location = document.baseURI + $(this).attr('src');
              });
-        })
+         })
 
-    /* External links to open in a new tab */
+         /* External links to open in a new tab */
 
-        $("a").each( function(){
-           if( $(this).attr("href").startsWith("http://") ){
-               $(this).attr("target", "_blank");
-               $(this).addClass("ext");
-           }
+         $("a").each(function () {
+             var href = $(this).attr("href");
+             if ( !href || href.startsWith("http://")) {
+                 $(this).attr("target", "_blank");
+                 $(this).addClass("ext");
+             }
 
-        })
+         })
 
-
-    };
-
-
-//  } );
-
-
+         /* assume null href are affiliate links */
+         $.getJSON("http://api.hostip.info/get_json.php", function (ipLocation) {
+             $.getJSON("http://localhost:63342/RunningTheAlps/FrontEnd/products.json", function (products) {
+                 $("a").each(function () {
+                     if (!$(this).attr("href")) {
+                         var productName = $(this).html();
+                         var link = products[productName][ipLocation.country_code];
+                         if (!link)
+                             link = products[innerText]["default"];
+                         if (!link)
+                             $(this).html("XXXXX");
+                         else
+                             $(this).attr("href", link);
+                     }
+                 });
+             });
+         });
+     };
+ });
 
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

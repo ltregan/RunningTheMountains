@@ -1,8 +1,25 @@
 {
 
   "Camp Ice Master": {
-        "CH": "ch_ice"
-    }
+        "default": "http://www.amazon.com/gp/product/B006WWXVCE/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B006WWXVCE&linkCode=as2&tag=runnthealps-20&linkId=OQSNCURFANBX5VGA",
+        "CH": "http://www.amazon.de/gp/product/B008968PMW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B008968PMW&linkCode=as2&tag=runnthealp033-21",
+        "UK": "http://www.amazon.co.uk/gp/product/B008968PMW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B008968PMW&linkCode=as2&tag=runnthealps09-21",
+        "DE": "http://www.amazon.de/gp/product/B008968PMW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B008968PMW&linkCode=as2&tag=runnthealp033-21"
+    },
 
+  "Camp Corsa Nanotech": {
+    "default": "http://www.amazon.com/gp/product/B0015LJ6JY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0015LJ6JY&linkCode=as2&tag=runnthealps-20&linkId=2GG26UVBV6PAAZAP",
+    "CH": "http://www.amazon.de/gp/product/B0015LJ6JY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B0015LJ6JY&linkCode=as2&tag=runnthealp033-21",
+    "UK": "http://www.amazon.co.uk/gp/product/B0015LJ6JY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B0015LJ6JY&linkCode=as2&tag=runnthealps09-21",
+    "DE": "http://www.amazon.de/gp/product/B0015LJ6JY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B0015LJ6JY&linkCode=as2&tag=runnthealp033-21"
+  },
+
+
+  "Arc'teryx Cerium LT Hoody": {
+    "default": "http://www.amazon.com/gp/product/B00GW802KW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00GW802KW&linkCode=as2&tag=runnthealps-20&linkId=234O5RKJGVO26U2T",
+    "CH": "http://www.amazon.de/gp/product/B00NB5DH9W/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00NB5DH9W&linkCode=as2&tag=runnthealp033-21",
+    "UK": "http://www.amazon.co.uk/gp/product/B00DR0J6NM/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00DR0J6NM&linkCode=as2&tag=runnthealps09-21",
+    "DE": "http://www.amazon.de/gp/product/B00NB5DH9W/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00NB5DH9W&linkCode=as2&tag=runnthealp033-21"
+  }
 
 }
