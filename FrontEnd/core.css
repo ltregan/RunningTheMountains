@@ -156,6 +156,9 @@ article img {
     max-width: 100%;
     -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 article img:hover {
