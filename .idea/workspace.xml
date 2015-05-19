@@ -46,8 +46,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FrontEnd/gear-review-inov-8-race-elite-24/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9529914">
-              <caret line="192" column="21" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.40384614">
+              <caret line="127" column="109" selection-start-line="127" selection-start-column="109" selection-end-line="127" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -535,12 +535,12 @@
       <workItem from="1431429728635" duration="1077000" />
       <workItem from="1431506308005" duration="8754000" />
       <workItem from="1431850273683" duration="5271000" />
-      <workItem from="1431856304161" duration="14629000" />
+      <workItem from="1431856304161" duration="14886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63112000" />
+    <option name="totallyTimeSpent" value="63369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="3198" height="1798" extended-state="0" />
@@ -907,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/gear-review-inov-8-race-elite-24/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9529914">
-          <caret line="192" column="21" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.40384614">
+          <caret line="127" column="109" selection-start-line="127" selection-start-column="109" selection-end-line="127" selection-end-column="109" />
           <folding />
         </state>
       </provider>
