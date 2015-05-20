@@ -9,14 +9,17 @@ function updateAffiliateLinks(ipLocation, products){
 
     $("a").each(function () {
         if (!$(this).attr("href")) {
-            var productName = $(this).html();
+            var productName = $(this).text().trim();
+            if( ! productName )
+                return;
+            if( ! products[productName] ) {
+                alert("unknown product '" + productName + "'");
+                return;
+            }
             var link = products[productName][ipLocation.country_code];
             if (!link)
-                link = products[innerText]["default"];
-            if (!link)
-                $(this).html("XXXXX");
-            else
-                $(this).attr("href", link);
+                link = products[productName]["default"];
+            $(this).attr("href", link);
         }
     });
 }

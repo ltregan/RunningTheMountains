@@ -147,12 +147,17 @@ article p {
     padding: 1em;
 }
 
+article figure figcaption {
+    text-align: center;
+}
 /**
    Article image not larger than the arctile, and their
    shadow turns red to hint they are clickable
 */
 
-article img {
+
+
+article img  {
     max-width: 100%;
     -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
     cursor: pointer;
@@ -161,9 +166,19 @@ article img {
     display: block;
 }
 
+
 article img:hover {
     -webkit-box-shadow: 0 6px 20px #F66; -moz-box-shadow: 0 6px 20px #F66;
 }
+
+article a img {
+    -webkit-box-shadow: none;
+}
+
+article a img:hover {
+    -webkit-box-shadow: none;
+}
+
 
 /**
    External links are be explicit.

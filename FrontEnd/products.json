@@ -31,7 +31,19 @@
     "UK": "http://www.amazon.co.uk/gp/product/B00TF9CHXA/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00TF9CHXA&linkCode=as2&tag=runnthealps09-21",
     "FR": "http://www.amazon.fr/gp/product/B00TF9CHXA/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00TF9CHXA&linkCode=as2&tag=runnthealp043-21",
     "DE": "http://www.amazon.de/gp/product/B00TF9CHXA/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00TF9CHXA&linkCode=as2&tag=runnthealp033-21"
+  },
 
+  "Exped Ultralite Zip Pack - XS":{
+    "default": "http://www.amazon.com/Waterproof-Fold-drybag-4-Pack-Classic/dp/B0015UK3FQ/ref=sr_1_1?ie=UTF8&qid=1432112238&sr=8-1&keywords=Exped+Pack+dry",
+    "CH": "http://www.amazon.de/s/ref=as_li_ss_tl?_encoding=UTF8&camp=1638&creative=19454&field-keywords=Exped%20Pack%20zip&linkCode=ur2&rh=i%3Aaps%2Ck%3AExped%20Pack%20zip&site-redirect=de&tag=runnthealp033-21&url=search-alias%3Daps",
+    "DE": "http://www.amazon.de/s/ref=as_li_ss_tl?_encoding=UTF8&camp=1638&creative=19454&field-keywords=Exped%20Pack%20zip&linkCode=ur2&rh=i%3Aaps%2Ck%3AExped%20Pack%20zip&site-redirect=de&tag=runnthealp033-21&url=search-alias%3Daps",
+    "UK":  "http://www.amazon.co.uk/gp/product/B00NHU1YX2/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00NHU1YX2&linkCode=as2&tag=runnthealps09-21&linkId=LLUGKIJL2PDRG3X2"
+  },
+
+  "Exped Ultralite Zip Pack - S":{
+    "default": "http://www.amazon.com/Waterproof-Fold-drybag-4-Pack-Classic/dp/B0015UK3FQ/ref=sr_1_1?ie=UTF8&qid=1432112238&sr=8-1&keywords=Exped+Pack+dry",
+    "CH": "http://www.amazon.de/s/ref=as_li_ss_tl?_encoding=UTF8&camp=1638&creative=19454&field-keywords=Exped%20Pack%20zip&linkCode=ur2&rh=i%3Aaps%2Ck%3AExped%20Pack%20zip&site-redirect=de&tag=runnthealp033-21&url=search-alias%3Daps",
+    "DE": "http://www.amazon.de/s/ref=as_li_ss_tl?_encoding=UTF8&camp=1638&creative=19454&field-keywords=Exped%20Pack%20zip&linkCode=ur2&rh=i%3Aaps%2Ck%3AExped%20Pack%20zip&site-redirect=de&tag=runnthealp033-21&url=search-alias%3Daps",
+    "UK":  "http://www.amazon.co.uk/gp/product/B00NHU1YX2/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00NHU1YX2&linkCode=as2&tag=runnthealps09-21&linkId=LLUGKIJL2PDRG3X2"
   }
-
 }
