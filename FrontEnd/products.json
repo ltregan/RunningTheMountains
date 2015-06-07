@@ -46,4 +46,13 @@
     "DE": "http://www.amazon.de/s/ref=as_li_ss_tl?_encoding=UTF8&camp=1638&creative=19454&field-keywords=Exped%20Pack%20zip&linkCode=ur2&rh=i%3Aaps%2Ck%3AExped%20Pack%20zip&site-redirect=de&tag=runnthealp033-21&url=search-alias%3Daps",
     "UK":  "http://www.amazon.co.uk/gp/product/B00NHU1YX2/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00NHU1YX2&linkCode=as2&tag=runnthealps09-21&linkId=LLUGKIJL2PDRG3X2"
   }
+
+  "Fenix 3":{
+    "default": "http://www.amazon.com/gp/product/B00RY1YWSO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00RY1YWSO&linkCode=as2&tag=runnthealps-20&linkId=G5JDDIJATWPRB3FJ",
+    "CH": "http://www.amazon.de/gp/product/B00S9EMJF8/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00S9EMJF8&linkCode=as2&tag=runnthealp033-21",
+    "DE": "http://www.amazon.de/gp/product/B00S9EMJF8/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00S9EMJF8&linkCode=as2&tag=runnthealp033-21",
+    "UK":  "http://www.amazon.co.uk/gp/product/B00S9G2RRQ/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00S9G2RRQ&linkCode=as2&tag=runnthealps09-21"
+  }
+
+
 }
