@@ -20,6 +20,8 @@ function updateAffiliateLinks(ipLocation, products){
             if (!link)
                 link = products[productName]["default"];
             $(this).attr("href", link);
+            $(this).addClass("ext");
+
         }
     });
 }
