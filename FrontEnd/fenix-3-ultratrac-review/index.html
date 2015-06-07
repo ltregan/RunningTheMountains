@@ -33,7 +33,7 @@
                 <!-- time>April 10th 2015</time -->
 
                 <p></p>
-                <p><img width="75%" src="in-snow.jpg" ><center><a>The Race Elite 24l</a></center></p>
+                <p><img width="75%" src="fenix-3-ultratrac.png" alt="Fenix 3 UltraTrac mode"></p>
 
                 <p>With long battery life in GPS mode, phones would be the unit of choice for many of us - we carry one anyway ;) Yet once the decision has been taken
                     by the avid runner to buy a GPS unit,  battery life still comes in the buying process: brands propose different options of weight and price
@@ -54,10 +54,14 @@
                         to fill-in the gaps</li>
                     <li>The big issue is that accuracy is way reduced: location could be spot on, but occasionally it would be off by 30m to 100m; combined with
                         the difficulty for the acceleromater to auto-calibrate in rugged environments, measured distance can be off by 20% on a route of several hours</li>
-                    <li>Elevation data does not seem to be impacted</li>
+                    <li>Elevation is set only once from GPS instead of continiously, but in stable weather it is still amazingly good</li>
                 </ul>
-                <p><b>Conclusion: UltraTrac is pretty much useless for both training (wrong distance) and navigation (wrong location). You will be better off carrying a powerbank
-                    to recharge on the go if you think  you might exceed 12h. Switch to UltraTrac only as a last resort and if you have a map with you.</b></p>
+                <b><p><u>Conclusion</u>
+                    <p>UltraTrac is pretty much useless for both training (wrong distance) and navigation (wrong location). You will be better off carrying a powerbank
+                    to recharge on the go if you think  you might exceed 12h.
+                    <p>Switch to UltraTrac only as a last resort and if you have a map with you.</p></b>
+
+                <p>The remainder of this document will go into all the details and provide the background for this opinion.</p>
 
                 <h3>Differences with previous implementations</h3>
 
@@ -79,7 +83,6 @@
                     <li>Turn off the Wi‑Fi® wireless feature
                 </ul>
 
-
                 <p>Applying these techniques, I have used the Garmin Fenix 3 for about 1000km now. I have found a lot of variability in battery life of its
                     Normal Mode - anywhere from 12h to 20h.
                     It seems to be  related to the ease of capturing the GPS signal: in open-field you get a much better battery life than navigating in the mountains,
@@ -99,14 +102,26 @@
                 <p>Now, admittidely it is not a apple-to-apple comparaison. It would worth to test it again on the exact same route. But still the point is valid,
                 one cannot claim blindly that using UltraTrac will give 50h of autonomy.</p>
 
+                <p>An important trick not well advertised is the ability to recharge while using the watch in an activity. The watch must be set to "USB Storage = Garmin",
+                    and the connector is flat enough to be worn while running:</p>
+
+                <p><img width="50%" src="onthego1.jpg">
+                <p><img width="50%" src="onthego2.jpg">
+
+
+
                 <h3>Cutting Corners</h3>
+
+                <p>UltraTrac basically works by turning on the GPS only every 90s.</p>
+
                 <p>With less points taken, as expected a few corners will be cut. Here is the same portion recorded with the 2 modes:<ul>
                         <li>Normal Mode: trace nicely recorded around the field and following the road precisely
                             <p><img src="corners-normal.jpg""></p> </li>
                         <li>UltraTrac Mode: with only two points, the extrapolated route in direct line makes the runner go cross-country
                             <p><img src="corners-ultratrac.jpg"></p> </li></ul><p>
 
-                <p>Now, if you go slower obviously this pattern will be much less seen.</p>
+                <p>Now, if you go slower obviously this pattern will be much less seen. At walking pace, the refresh rate is still ~90s and  thus you will get
+                more  points per km.</p>
                 <p>What is the impact of the corner cutting ? Well, on simple routes not too bad - you stay within less than 5%. In-between the readings,
                     the watch will use its accelerometer to estimate your moving speed: you can validate that by  staying still and just moving your wrist,
                     distance will increase. All seem reasonnable so far.</p>
@@ -117,7 +132,7 @@
 
                 <h3>Approximate Location</h3>
                 <p>As explained above, typically UltraTrac gives fair figures. However, every once in a while accuracy will be totally off - sometimes
-                    by a good 100m. Because of this "jumping around", you can see a bigger recorded distance than reality - I got a whopping
+                    by a good 100m. Partly because of this "jumping around", you can see a bigger recorded distance than reality - I got a whopping
                 +20% on a 34k route !</p>
                 <p>Below a couple examples:</p> <ul>
                     <li>Here it looks as if I went backward:
@@ -128,7 +143,7 @@
                     <li>An apple-to-apple comparaison on the same route, showing a 1km section (over 5min, leaving in theory plenty of time for the GPS to resync) :
                         <img   src="pfa-normal.jpg"><p></p><img  src="pfa-ultra.jpg">
                         <p>Even in cases where a change of direction is recorded, and would you think a proper GPS reading has been done
-                        at that time, the inflexion points(circled above in red) are way off by up to  200m.
+                        at that time, the inflexion points (circled above in red) are way off by up to  200m.
                     </li>
                   </ul>
 
@@ -142,7 +157,13 @@
 
                 <p>The accelerometer is calibrated based on your previous runs (probably
                 relating cadence to speed). While it may work on even ground, in practice up and down the mountains, using poles, etc. just make the inclusion
-                of the accelorometer another big source of uncertainty. Sticking to a straight line interpolation would probably be a safer option.</p>
+                of the accelorometer another big source of uncertainty. Having the option to stick to a straight line interpolation would probably be a good choice.</p>
+
+                <h3>Elevation Data</h3>
+
+                <p>On the 12h activity described above, I had UltraTrac on for 5 hours and Normal Mode for 7 hours. Elevation data were +16444ft and -16526ft.
+                Hard to be more precise ! At least in stable weather, UtraTrac option and its disablling of auto-calibration of the barimeter does
+                not create any problem.</p>
 
                 <h3>Conclusion</h3>
 
