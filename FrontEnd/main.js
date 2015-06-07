@@ -28,7 +28,8 @@ function loadArticle(baseId, title){
 
 $(function(){
 
+    loadArticle('fenix-3-ultratrac-review', 'Fenix 3 UltraTrac Review');
     loadArticle('gear-review-inov-8-race-elite-24', 'Review: Inov-8 Race Elite 24');
-    // ... more articles to come here ...
+
 });
 

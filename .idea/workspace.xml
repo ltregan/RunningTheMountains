@@ -33,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEnd/fenix-3-ultratrac-review/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20440252">
+            <state vertical-scroll-proportion="-4.642857">
               <caret line="159" column="163" selection-start-line="159" selection-start-column="163" selection-end-line="159" selection-end-column="163" />
               <folding />
             </state>
@@ -48,6 +48,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.285714">
               <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7921687">
+              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -104,7 +114,6 @@
         <option value="$PROJECT_DIR$/FrontEnd/notes.txt" />
         <option value="$PROJECT_DIR$/FrontEnd/main.css" />
         <option value="$PROJECT_DIR$/FrontEnd/gear-review-inov-8-race-elite-24/article.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/main.js" />
         <option value="$PROJECT_DIR$/FrontEnd/article.js" />
         <option value="$PROJECT_DIR$/FrontEnd/core.css" />
         <option value="$PROJECT_DIR$/FrontEnd/products.json" />
@@ -113,6 +122,7 @@
         <option value="$PROJECT_DIR$/FrontEnd/fenix-3-ultratractesting/index.html" />
         <option value="$PROJECT_DIR$/FrontEnd/index.html" />
         <option value="$PROJECT_DIR$/FrontEnd/fenix-3-ultratrac-review/index.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/main.js" />
       </list>
     </option>
   </component>
@@ -526,12 +536,12 @@
       <workItem from="1431850273683" duration="5271000" />
       <workItem from="1431856304161" duration="45665000" />
       <workItem from="1433583997443" duration="17696000" />
-      <workItem from="1433677518357" duration="8522000" />
+      <workItem from="1433677518357" duration="8679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120366000" />
+    <option name="totallyTimeSpent" value="120523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="3200" height="1798" extended-state="0" />
@@ -892,13 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26190478">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/article.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28373015">
@@ -932,6 +935,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/fenix-3-ultratrac-review/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.642857">
+          <caret line="159" column="163" selection-start-line="159" selection-start-column="163" selection-end-line="159" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.285714">
@@ -940,10 +951,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/fenix-3-ultratrac-review/index.html">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20440252">
-          <caret line="159" column="163" selection-start-line="159" selection-start-column="163" selection-end-line="159" selection-end-column="163" />
+        <state vertical-scroll-proportion="0.7921687">
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
           <folding />
         </state>
       </provider>
