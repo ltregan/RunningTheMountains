@@ -88,8 +88,8 @@
       <file leaf-file-name="core.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FrontEnd/core.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6626506">
-              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.03313253">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -536,12 +536,12 @@
       <workItem from="1431856304161" duration="45665000" />
       <workItem from="1433583997443" duration="17696000" />
       <workItem from="1433677518357" duration="11438000" />
-      <workItem from="1433862185453" duration="1656000" />
+      <workItem from="1433862185453" duration="2111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124938000" />
+    <option name="totallyTimeSpent" value="125393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="3200" height="1798" extended-state="0" />
@@ -958,8 +958,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/core.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6626506">
-          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.03313253">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding />
         </state>
       </provider>
