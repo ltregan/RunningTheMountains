@@ -1,26 +1,19 @@
 
 
+/*
+    Default fonts and expecations.
+
+*/
+
+
 body {
-/*    background-color: #C9F5DB; */
     background-color: #DDDDDD;
     font: normal 1.0em Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
     font-family: Calibri, Candara, 'Gill Sans', 'Gill Sans MT', sans-serif;
     line-height: 1.5;
-/*    color: #394017; */
     color: #444444;
     text-align: justify;
 }
-
-
-h1 {
-    font-size: 3.5em;
-    margin: auto;
-}
-
-header div {
-    font-size: 3.5em;
-}
-
 
 b{
     font-weight: bold;
@@ -28,6 +21,18 @@ b{
 
 i {
     font-style: italic;
+}
+
+
+/*
+   Main Header
+
+*/
+
+
+h1 {
+    font-size: 3.5em;
+    margin: auto;
 }
 
 
@@ -48,6 +53,10 @@ header{
     height: 20%;
 }
 
+header div {
+    font-size: 3.5em;
+}
+
 
 header a:link {
     text-decoration: none;
@@ -65,13 +74,14 @@ header a:visited {
  */
 
 .main {
-    background-color: #FFFF00;
+    background-color: #FFFFFF;
     foreground-color: #FFFFFF;
     border-color: black;
     border-style: solid;
 
     /* leave with some space with the top header banner */
     margin: 0.5em 0 0 0 ;
+    padding: 1em;
 
 
     /* put some white space around the inner font */
@@ -96,7 +106,6 @@ header a:visited {
 */
 
 article{
-    max-width: 30em;
     border-color: black;
     font: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
