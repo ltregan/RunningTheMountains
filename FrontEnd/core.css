@@ -142,6 +142,7 @@ article li {
     list-style: square outside none;
     text-ident: 4em;
     margin-left: 4em;
+    margin-right: 4em;
 }
 
 article time {

@@ -46,8 +46,8 @@
       <file leaf-file-name="products.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontEnd/products.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+            <state vertical-scroll-proportion="-31.428572">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -88,8 +88,8 @@
       <file leaf-file-name="core.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FrontEnd/core.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60240966">
-              <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.40430108">
+              <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -536,12 +536,12 @@
       <workItem from="1431856304161" duration="45665000" />
       <workItem from="1433583997443" duration="17696000" />
       <workItem from="1433677518357" duration="11438000" />
-      <workItem from="1433862185453" duration="4634000" />
+      <workItem from="1433862185453" duration="5318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127916000" />
+    <option name="totallyTimeSpent" value="128600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="3200" height="1798" extended-state="0" />
@@ -914,26 +914,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/gear-review-inov-8-race-elite-24/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="168" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/products.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -956,10 +940,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/products.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.428572">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/core.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60240966">
-          <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.40430108">
+          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
           <folding />
         </state>
       </provider>
