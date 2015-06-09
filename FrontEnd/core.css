@@ -84,20 +84,24 @@ header a:visited {
     padding: 1em;
 
 
-    /* put some white space around the inner font */
-
-  /*  padding-top: 3em;
-    padding-left: 3em;*/
-
-
-    /* not too wide on desktop */
-    max-width: 40em;
-    min-width: 30em;
-
     /* center it */
     margin-left: auto;
     margin-right: auto;
 }
+
+/*
+    Create some air for wider screens
+*/
+
+@media screen
+and (orientation: landscape){
+
+    .main{
+        max-width: 40em;
+    }
+}
+
+/* not too wide on desktop */
 
 
 
