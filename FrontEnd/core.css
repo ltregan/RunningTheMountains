@@ -91,7 +91,8 @@ header a:visited {
 
 
     /* not too wide on desktop */
-    max-width: 40em;
+/*    max-width: 40em; */
+    min-width: 40em;
 
     /* center it */
     margin-left: auto;
