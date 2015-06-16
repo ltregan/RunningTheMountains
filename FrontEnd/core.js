@@ -6,23 +6,25 @@ core  ={};
 
 
 function updateAffiliateLinks(ipLocation, products){
+    if( ipLocation.country_code === "CH")
+        ipLocation.country_code = "DE";
 
     $("a").each(function () {
-        if (!$(this).attr("href")) {
-            var productName = $(this).text().trim();
-            if( ! productName )
-                return;
-            if( ! products[productName] ) {
-                alert("unknown product '" + productName + "'");
-                return;
-            }
-            var link = products[productName][ipLocation.country_code];
-            if (!link)
-                link = products[productName]["default"];
-            $(this).attr("href", link);
-            $(this).addClass("ext");
-
+        if ( $(this).attr("href"))
+            return;
+        var productName = $(this).text().trim();
+        if( ! productName )
+            return;
+        if( ! products[productName] ) {
+            alert("unknown product '" + productName + "'");
+            return;
         }
+
+        var link = products[productName][ipLocation.country_code];
+        if (!link)
+            link = products[productName]["default"];
+        $(this).attr("href", link);
+        $(this).addClass("ext");
     });
 }
 
@@ -37,7 +39,11 @@ function updateAffiliateLinks(ipLocation, products){
              root = document;
          $(root).find('article img').each(function () {
              $(this).click(function () {
-                 window.location = document.baseURI + $(this).attr('src');
+                 if( $(this).attr('src').startsWith("http://") )
+                     window.location = $(this).attr('src');
+                 else
+                    window.location = document.baseURI + $(this).attr('src');
+
              });
          })
 
