@@ -20,7 +20,7 @@ function applyStyles(baseId){
     };
 }
 
-function loadArticle(baseId, title){
+function loadArticle(baseId){
     var base = $("#" + baseId);
     base.load(baseId +" article", applyStyles( baseId ));
 }
@@ -28,8 +28,10 @@ function loadArticle(baseId, title){
 
 $(function(){
 
-    loadArticle('fenix-3-ultratrac-review', 'Fenix 3 UltraTrac Review');
-    loadArticle('gear-review-inov-8-race-elite-24', 'Review: Inov-8 Race Elite 24');
+    loadArticle('favorite-ultra-kit');
+    loadArticle('preparing-for-dragon-s-back');
+    loadArticle('fenix-3-ultratrac-review');
+    loadArticle('gear-review-inov-8-race-elite-24');
 
 });
 
