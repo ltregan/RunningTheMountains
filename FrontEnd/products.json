@@ -119,7 +119,6 @@
   },
 
 
-
   "Buff":{
     "default": "http://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&camp=1789&creative=9325&index=aps&keywords=buff&linkCode=as2&tag=runnthealps-20&linkId=NJKFTDE6O5CRY6QH",
     "UK": "http://www.amazon.co.uk/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&camp=1634&creative=6738&index=aps&keywords=buff&linkCode=as2&tag=runnthealps09-21",
@@ -230,6 +229,44 @@
     "default": "http://www.amazon.com/gp/product/B00LMCATH4/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00LMCATH4&linkCode=as2&tag=runnthealps-20&linkId=SNOBJTNE7AEURT4V",
     "UK": "http://www.amazon.co.uk/gp/product/B00LMCATH4/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00LMCATH4&linkCode=as2&tag=runnthealps09-21",
     "DE": "http://www.amazon.de/gp/product/B00LMCATH4/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00LMCATH4&linkCode=as2&tag=runnthealp033-21"
+  },
+
+  "Marmot Essence": {
+    "default": "http://www.amazon.com/gp/product/B00LFT30ES/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00LFT30ES&linkCode=as2&tag=runnthealps-20&linkId=RLZWNDI6FXV5N3TA",
+    "FR": "http://www.amazon.fr/gp/product/B000FDWNQG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B000FDWNQG&linkCode=as2&tag=runnthealp043-21",
+    "DE": "http://www.amazon.de/gp/product/B000FDUR9G/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B000FDUR9G&linkCode=as2&tag=runnthealp033-21",
+    "UK": "http://www.amazon.co.uk/gp/product/B000FDWNQG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B000FDWNQG&linkCode=as2&tag=runnthealps09-21"
+  },
+
+  "Mammut Rainspeed": {
+    "default": "http://www.amazon.com/gp/product/B00G6S7XMI/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00G6S7XMI&linkCode=as2&tag=runnthealps-20&linkId=FFQNFZNVMSQSDBF4",
+    "FR": "http://www.amazon.fr/gp/product/B00G6S7WWO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00G6S7WWO&linkCode=as2&tag=runnthealp043-21",
+    "DE": "http://www.amazon.de/gp/product/B00J9TREKW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00J9TREKW&linkCode=as2&tag=runnthealp033-21",
+    "UK": "http://www.amazon.co.uk/gp/product/B00Q8NL17E/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00Q8NL17E&linkCode=as2&tag=runnthealps09-21"
+  },
+
+
+  "Inov-8 Terraclaw 250": {
+    "default": "http://www.amazon.com/gp/product/B00WZU8I9I/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00WZU8I9I&linkCode=as2&tag=runnthealps-20&linkId=UGO65D24BRP7QLRS",
+    "FR": "http://www.amazon.fr/gp/product/B00QTD38EC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00QTD38EC&linkCode=as2&tag=runnthealp043-21",
+    "DE": "http://www.amazon.de/gp/product/B00W7PUMJ0/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00W7PUMJ0&linkCode=as2&tag=runnthealp033-21",
+    "UK": "http://www.amazon.co.uk/gp/product/B00QTD31LM/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00QTD31LM&linkCode=as2&tag=runnthealps09-21"
+  },
+
+  "Salomon S-Lab Sense Visor": {
+    "default": "http://www.amazon.com/gp/product/B00F6SWVGM/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00F6SWVGM&linkCode=as2&tag=runnthealps-20&linkId=HXLG3E2LKS3HHBHU",
+    "FR": "http://www.amazon.fr/gp/product/B00HZAPW6U/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00HZAPW6U&linkCode=as2&tag=runnthealp043-21",
+    "DE": "http://www.amazon.de/gp/product/B00HZAPW6U/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00HZAPW6U&linkCode=as2&tag=runnthealp033-21",
+    "UK": "http://www.amazon.co.uk/gp/product/B00F6SWVGM/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00F6SWVGM&linkCode=as2&tag=runnthealps09-21"
+  },
+
+  "Mammut Rainspeed": {
+    "default": "http://www.amazon.com/gp/product/B00G6S7XMI/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00G6S7XMI&linkCode=as2&tag=runnthealps-20&linkId=FFQNFZNVMSQSDBF4",
+    "FR": "http://www.amazon.fr/gp/product/B00G6S7WWO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00G6S7WWO&linkCode=as2&tag=runnthealp043-21",
+    "DE": "http://www.amazon.de/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&camp=1638&creative=6742&index=aps&keywords=Mammut%20Rainspeed&linkCode=as2&tag=runnthealp033-21",
+    "UK": "http://www.amazon.co.uk/gp/product/B00Q8NL17E/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00Q8NL17E&linkCode=as2&tag=runnthealps09-21"
   }
+
+
 
 }

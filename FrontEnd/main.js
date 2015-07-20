@@ -28,6 +28,8 @@ function loadArticle(baseId){
 
 $(function(){
 
+
+    loadArticle('eiger-101-race-report');
     loadArticle('favorite-ultra-kit');
     loadArticle('preparing-for-dragon-s-back');
     loadArticle('fenix-3-ultratrac-review');
