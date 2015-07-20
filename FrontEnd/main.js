@@ -9,6 +9,8 @@ function applyStyles(baseId){
     return function(e) {
         base.find('img').each(function () {
             var oldSrc = $(this).attr('src');
+            if( oldSrc.indexOf("http://") >= 0)
+                return;
             var newSrc = baseId + "/" + oldSrc;
             $(this).attr('src', newSrc);
         })
