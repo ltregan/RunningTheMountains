@@ -32,7 +32,6 @@ $(function(){
 
 
     loadArticle('eiger-101-race-report');
-    loadArticle('favorite-ultra-kit');
     loadArticle('preparing-for-dragon-s-back');
     loadArticle('fenix-3-ultratrac-review');
     loadArticle('gear-review-inov-8-race-elite-24');
