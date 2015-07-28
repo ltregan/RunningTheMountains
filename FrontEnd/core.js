@@ -68,7 +68,7 @@ function updateAffiliateLinks(ipLocation, products){
                      $(this).addClass("ext");
                  }
              }catch(x){
-                 $("#status").html(x);
+                 $("#status2").html(x);
              }
 
          })
