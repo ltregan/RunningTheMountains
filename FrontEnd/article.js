@@ -6,8 +6,11 @@ function fillInAfiliates(){
     $("a")
 }
 
+$("#status").html("loading core..");
 
 $.getScript("../core.js", function() {
+
+    $("#status").html("addJStyle..");
 
     core.addJSStyle();
 
