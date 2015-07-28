@@ -7,8 +7,6 @@ core  ={};
 
 function updateAffiliateLinks(ipLocation, products){
 
-    $("#status").html("updateAffiliateLinks.."+ ipLocation);
-
 
     if( ipLocation.country_code === "CH")
         ipLocation.country_code = "DE";
@@ -37,53 +35,36 @@ function updateAffiliateLinks(ipLocation, products){
 
      core.addJSStyle = function (root) {
 
-         $("#status").html("adding jsstyle..");
-
          /* Article images must link to themselves in fullscreen */
 
          if (!root)
              root = document;
          $(root).find('article img').each(function () {
              $(this).click(function () {
-                 if( $(this).attr('src').startsWith("http://") )
+                 if( $(this).attr('src').indexOf("http://")==0 )
                      window.location = $(this).attr('src');
                  else
                     window.location = document.baseURI + $(this).attr('src');
              });
          })
 
-         $("#status").html("as..");
 
          /* External links to open in a new tab */
 
-         var n=0;
-
          $("a").each(function () {
-             n = n+1;
-             try {
-                 $("#status").html("n=" + n);
-                 var href = $(this).attr("href");
-                 if (!href || href.indexOf("http://")==0 ) {
-                     $(this).attr("target", "_blank");
-                     $(this).addClass("ext");
-                 }
-             }catch(x){
-                 $("#status2").html(x+" "+href.t);
+             var href = $(this).attr("href");
+             if (!href || href.indexOf("http://")==0 ) {
+                 $(this).attr("target", "_blank");
+                 $(this).addClass("ext");
              }
-
          })
 
          /* assume null href are affiliate links */
-         $("#status").html("getJSON 0..");
          $.getJSON("http://api.hostip.info/get_json.php", function (ipLocation) {
-             $("#status").html("getJSON 1..");
              $.getJSON("/products.json", function (products) {
-                 $("#status").html("gotJSON 1");
                  updateAffiliateLinks( ipLocation, products )
              });
-             $("#status").html("getJSON 2..");
              $.getJSON("http://localhost:63342/RunningTheAlps/FrontEnd/products.json", function (products) {
-                 $("#status").html("gotJSON 2");
                  updateAffiliateLinks( ipLocation, products )
              });
          });
