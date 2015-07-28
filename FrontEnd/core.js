@@ -41,7 +41,8 @@ function updateAffiliateLinks(ipLocation, products){
              root = document;
          $(root).find('article img').each(function () {
              $(this).click(function () {
-                 if( $(this).attr('src').indexOf("http://")==0 )
+                 var src =  $(this).attr('src');
+                 if( src.indexOf("http://")==0 || src.indexOf("https://")==0 )
                      window.location = $(this).attr('src');
                  else
                     window.location = document.baseURI + $(this).attr('src');
