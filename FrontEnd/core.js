@@ -60,11 +60,15 @@ function updateAffiliateLinks(ipLocation, products){
 
          $("a").each(function () {
              n = n+1;
-             $("#status").html("n="+n);
-             var href = $(this).attr("href");
-             if ( !href || href.startsWith("http://")) {
-                 $(this).attr("target", "_blank");
-                 $(this).addClass("ext");
+             try {
+                 $("#status").html("n=" + n);
+                 var href = $(this).attr("href");
+                 if (!href || href.startsWith("http://")) {
+                     $(this).attr("target", "_blank");
+                     $(this).addClass("ext");
+                 }
+             }catch(x){
+                 $("#status").html(x);
              }
 
          })
