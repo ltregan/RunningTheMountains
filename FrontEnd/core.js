@@ -37,6 +37,8 @@ function updateAffiliateLinks(ipLocation, products){
 
      core.addJSStyle = function (root) {
 
+         $("#status").html("adding jsstyle..");
+
          /* Article images must link to themselves in fullscreen */
 
          if (!root)
@@ -47,9 +49,10 @@ function updateAffiliateLinks(ipLocation, products){
                      window.location = $(this).attr('src');
                  else
                     window.location = document.baseURI + $(this).attr('src');
-
              });
          })
+
+         $("#status").html("as..");
 
          /* External links to open in a new tab */
 
