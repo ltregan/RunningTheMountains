@@ -63,12 +63,12 @@ function updateAffiliateLinks(ipLocation, products){
              try {
                  $("#status").html("n=" + n);
                  var href = $(this).attr("href");
-                 if (!href || href.startsWith("http://")) {
+                 if (!href || href.indexOf("http://")==0 ) {
                      $(this).attr("target", "_blank");
                      $(this).addClass("ext");
                  }
              }catch(x){
-                 $("#status2").html(x);
+                 $("#status2").html(x+" "+href.t);
              }
 
          })
