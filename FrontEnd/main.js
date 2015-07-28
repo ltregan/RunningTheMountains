@@ -30,7 +30,7 @@ function loadArticle(baseId){
 
 $(function(){
 
-
+    loadArticle('running-the-hardergrat');
     loadArticle('eiger-101-race-report');
     loadArticle('preparing-for-dragon-s-back');
     loadArticle('fenix-3-ultratrac-review');
