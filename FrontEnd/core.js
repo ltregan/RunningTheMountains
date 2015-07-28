@@ -6,6 +6,10 @@ core  ={};
 
 
 function updateAffiliateLinks(ipLocation, products){
+
+    $("#status").html("updateAffiliateLinks.."+ ipLocation);
+
+
     if( ipLocation.country_code === "CH")
         ipLocation.country_code = "DE";
 
@@ -59,11 +63,16 @@ function updateAffiliateLinks(ipLocation, products){
          })
 
          /* assume null href are affiliate links */
+         $("#status").html("getJSON 0..");
          $.getJSON("http://api.hostip.info/get_json.php", function (ipLocation) {
+             $("#status").html("getJSON 1..");
              $.getJSON("/products.json", function (products) {
+                 $("#status").html("gotJSON 1");
                  updateAffiliateLinks( ipLocation, products )
              });
+             $("#status").html("getJSON 2..");
              $.getJSON("http://localhost:63342/RunningTheAlps/FrontEnd/products.json", function (products) {
+                 $("#status").html("gotJSON 2");
                  updateAffiliateLinks( ipLocation, products )
              });
          });
