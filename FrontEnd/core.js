@@ -18,7 +18,7 @@ function updateAffiliateLinks(ipLocation, products){
         if( ! productName )
             return;
         if( ! products[productName] ) {
-            alert("unknown product '" + productName + "'");
+           // alert("unknown product '" + productName + "'");
             return;
         }
 
