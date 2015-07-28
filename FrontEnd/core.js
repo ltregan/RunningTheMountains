@@ -56,7 +56,11 @@ function updateAffiliateLinks(ipLocation, products){
 
          /* External links to open in a new tab */
 
+         var n=0;
+
          $("a").each(function () {
+             n = n+1;
+             $("#status").html("n="+n);
              var href = $(this).attr("href");
              if ( !href || href.startsWith("http://")) {
                  $(this).attr("target", "_blank");
