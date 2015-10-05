@@ -286,7 +286,21 @@
     "FR":"http://www.amazon.fr/gp/product/B00QTD2W08/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00QTD2W08&linkCode=as2&tag=runnthealp043-21",
     "DE":"http://www.amazon.de/gp/product/B00QTD3310/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00QTD3310&linkCode=as2&tag=runnthealp033-21",
     "UK":"http://www.amazon.co.uk/gp/product/B00QTD2ZNC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00QTD2ZNC&linkCode=as2&tag=runnthealps09-21"
-  }
+  },
 
+
+  "Salomon XA Pro 3D":{
+    "default":"http://www.amazon.com/gp/product/B00D3OLGH6/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00D3OLGH6&linkCode=as2&tag=runnthealps-20&linkId=YBC56RQKFIJ5FNH6",
+    "FR":"http://www.amazon.fr/gp/product/B00D3OKXC0/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00D3OKXC0&linkCode=as2&tag=runnthealp043-21",
+    "DE":"http://www.amazon.de/gp/product/B00D3OKYSI/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00D3OKYSI&linkCode=as2&tag=runnthealp033-21",
+    "UK":"http://www.amazon.co.uk/gp/product/B00WL9RDAI/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00WL9RDAI&linkCode=as2&tag=runnthealps09-21"
+  },
+
+  "La Sportiva Bushido":{
+    "default":"http://www.amazon.com/gp/product/B00DTH1D6Q/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00DTH1D6Q&linkCode=as2&tag=runnthealps-20&linkId=JBRLT4LAYGWI33GH",
+    "FR":"http://www.amazon.fr/gp/product/B00JK6KK14/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00JK6KK14&linkCode=as2&tag=runnthealp043-21",
+    "DE":"http://www.amazon.de/gp/product/B00K0LRSXG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00K0LRSXG&linkCode=as2&tag=runnthealp033-21",
+    "UK":"http://www.amazon.co.uk/gp/product/B00J5BN3R2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00J5BN3R2&linkCode=as2&tag=runnthealps09-21"
+  }
 
 }
