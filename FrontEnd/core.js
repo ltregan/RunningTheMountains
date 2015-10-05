@@ -5,11 +5,19 @@
 core  ={};
 
 
+function isDebug(){
+    return document.documentURI.indexOf("?debug") >=0;
+}
+
 function updateAffiliateLinks(ipLocation, products){
 
 
     if( ipLocation.country_code === "CH")
         ipLocation.country_code = "DE";
+
+    if( isDebug() ){
+        console.log("country="+ipLocation.country_code);
+    }
 
     $("a").each(function () {
         if ( $(this).attr("href"))
@@ -18,7 +26,8 @@ function updateAffiliateLinks(ipLocation, products){
         if( ! productName )
             return;
         if( ! products[productName] ) {
-           // alert("unknown product '" + productName + "'");
+            if( isdebug() )
+             console.log("unknown product="+productName);
             return;
         }
 
@@ -62,10 +71,7 @@ function updateAffiliateLinks(ipLocation, products){
 
          /* assume null href are affiliate links */
          $.getJSON("http://api.hostip.info/get_json.php", function (ipLocation) {
-             $.getJSON("/products.json", function (products) {
-                 updateAffiliateLinks( ipLocation, products )
-             });
-             $.getJSON("http://localhost:63342/RunningTheAlps/FrontEnd/products.json", function (products) {
+             $.getJSON("../products.json", function (products) {
                  updateAffiliateLinks( ipLocation, products )
              });
          });
