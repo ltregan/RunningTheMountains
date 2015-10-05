@@ -212,6 +212,8 @@ article p {
 
 article figure figcaption {
     text-align: center;
+    font-style: italic;
+    padding: 1em;
 }
 /**
    Article image not larger than the arctile, and their

@@ -272,8 +272,21 @@
     "FR":"http://www.amazon.fr/gp/product/B00AQUZ4GY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00AQUZ4GY&linkCode=as2&tag=runnthealp043-21",
     "DE":"http://www.amazon.de/gp/product/B00AQUZ77K/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00AQUZ77K&linkCode=as2&tag=runnthealp033-21",
     "UK":"http://www.amazon.co.uk/gp/product/B00AQUZ5CW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00AQUZ5CW&linkCode=as2&tag=runnthealps09-21"
-  }
+  },
 
+  "ASICS Piranha":{
+    "default":"http://www.amazon.com/gp/product/B00KOLKJ2E/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00KOLKJ2E&linkCode=as2&tag=runnthealps-20&linkId=YICJXZY5VAQSSRBG",
+    "FR":"http://www.amazon.fr/gp/product/B00PO9C53C/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00PO9C53C&linkCode=as2&tag=runnthealp043-21",
+    "DE":"http://www.amazon.de/gp/product/B00PO9C53C/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00PO9C53C&linkCode=as2&tag=runnthealp033-21",
+    "UK":"http://www.amazon.co.uk/gp/product/B006KACLQU/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B006KACLQU&linkCode=as2&tag=runnthealps09-21"
+  },
+
+  "Inov-8 TerraClaw 250":{
+    "default":"http://www.amazon.com/gp/product/B00QTD36LC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00QTD36LC&linkCode=as2&tag=runnthealps-20&linkId=4DTUV64E6AIBZEPE",
+    "FR":"http://www.amazon.fr/gp/product/B00QTD2W08/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00QTD2W08&linkCode=as2&tag=runnthealp043-21",
+    "DE":"http://www.amazon.de/gp/product/B00QTD3310/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00QTD3310&linkCode=as2&tag=runnthealp033-21",
+    "UK":"http://www.amazon.co.uk/gp/product/B00QTD2ZNC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00QTD2ZNC&linkCode=as2&tag=runnthealps09-21"
+  }
 
 
 }
