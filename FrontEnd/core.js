@@ -26,7 +26,7 @@ function updateAffiliateLinks(ipLocation, products){
         if( ! productName )
             return;
         if( ! products[productName] ) {
-            if( isdebug() )
+            if( isDebug() )
              console.log("unknown product="+productName);
             return;
         }
