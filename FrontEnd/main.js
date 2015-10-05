@@ -30,6 +30,7 @@ function loadArticle(baseId){
 
 $(function(){
 
+    loadArticle('choosing-running-shoes');
     loadArticle('running-the-hardergrat');
     loadArticle('eiger-101-race-report');
     loadArticle('preparing-for-dragon-s-back');
